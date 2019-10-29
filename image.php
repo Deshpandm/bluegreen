@@ -6,7 +6,8 @@ $white = imagecolorallocate($im, 255, 255, 255);
 $deployment = getenv("COLOR");
 
 //if ( $deployment == 'red') {
-if ( $deployment == 'green') {
+//if ( $deployment == 'green') {
+if ( $deployment == 'yellow') {
   $color = imagecolorallocate($im, 0, 0, 255);
 } elseif ($deployment == 'green')  {
   $color = imagecolorallocate($im, 0, 255, 0);
